@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/pytorch:24.12-py3
+FROM nvcr.io/nvidia/nemo:24.12
 
 RUN wget https://github.com/coder/code-server/releases/download/v4.8.3/code-server_4.8.3_amd64.deb && \
     dpkg -i code-server_4.8.3_amd64.deb && \
